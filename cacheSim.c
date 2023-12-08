@@ -68,7 +68,7 @@ int main(int argc, char *argv[]){
     int opcode = 0, regA = 0, regB = 0, destReg = 0, offset = 0, totalInstructions = 0;
     
     if (argc != 5) {
-        printf("error: usage: %s <machine-code file>\n", argv[0]);
+        printf("error: usage: %s <machine-code file> <blockSizeInWords> <numberOfSets> <blocksPerSet>\n", argv[0]);
         exit(1);
     }
 
